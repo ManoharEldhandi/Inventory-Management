@@ -45,10 +45,10 @@ project-root/
 ├── README.md
 └── inventory_db.sql
 
-Setup Instructions
+**Setup Instructions**
 Follow these steps to set up and run the project:
 
-Step 1: Setup MySQL Database
+**Step 1: Setup MySQL Database**
 	1.	Start the MySQL server:
  	2.	Log in to MySQL:
   3.	Create the inventory_db database:
@@ -60,7 +60,7 @@ Create the lib folder (if it doesn’t exist) and move the .jar file:
     command: mkdir lib
              mv ~/Downloads/mysql-connector-j-9.2.0.jar lib/
 
-Step 3: Compile the Java Files
+**Step 3: Compile the Java Files**
 Run the following commands in sequence:
 1. Compile Config Class
    command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/config/DatabaseConfig.java
@@ -75,12 +75,11 @@ Run the following commands in sequence:
 6. Compile Main Class
    command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/Main.java
 
-Step 4: Run the Project
+**Step 4: Run the Project**
 Run the application with the .jar file included:
 command: java -cp "out:lib/mysql-connector-j-9.2.0.jar" com.inventory.Main
  
-Key Features
-
+**Key Features**
 ✅ Add, Update, and Delete Products
 ✅ Manage Supplier Information
 ✅ Create and Track Orders
