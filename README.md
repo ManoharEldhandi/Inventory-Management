@@ -14,7 +14,7 @@ Display All Orders: List all recorded orders.
 
 
 **Project Folder Structure**
-
+```
 project-root/
 ├── src/
 │   ├── main/
@@ -44,7 +44,7 @@ project-root/
 ├── .gitignore
 ├── README.md
 └── inventory_db.sql
-
+```
 **Setup Instructions**
 Follow these steps to set up and run the project:
 
@@ -62,22 +62,22 @@ Create the lib folder (if it doesn’t exist) and move the .jar file:
 
 **Step 3: Compile the Java Files**
 Run the following commands in sequence:
-1. Compile Config Class
-   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/config/DatabaseConfig.java
-2. Compile Model Classes
-   command: javac -d out -cp "lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/model/*.java
-3. Compile DAO Classes
-   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/dao/*.java
-4. Compile Utility Class
-   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/utils/ConsoleUI.java
-5. Compile Service Classes
-   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/service/*.java
-6. Compile Main Class
-   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/Main.java
+1. Compile Config Class```
+   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/config/DatabaseConfig.java ```
+3. Compile Model Classes```
+   command: javac -d out -cp "lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/model/*.java```
+4. Compile DAO Classes```
+   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/dao/*.java```
+5. Compile Utility Class```
+   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/utils/ConsoleUI.java```
+6. Compile Service Classes```
+   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/service/*.java```
+7. Compile Main Class```
+   command: javac -d out -cp "out:lib/mysql-connector-j-9.2.0.jar" src/main/java/com/inventory/Main.java```
 
 **Step 4: Run the Project**
-Run the application with the .jar file included:
-command: java -cp "out:lib/mysql-connector-j-9.2.0.jar" com.inventory.Main
+Run the application with the .jar file included:```
+command: java -cp "out:lib/mysql-connector-j-9.2.0.jar" com.inventory.Main```
  
 **Key Features**
 ✅ Add, Update, and Delete Products
