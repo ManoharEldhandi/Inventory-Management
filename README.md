@@ -80,13 +80,14 @@ Run the application with the .jar file included:```
 command: java -cp "out:lib/mysql-connector-j-9.2.0.jar" com.inventory.Main```
  
 **Key Features**
+```
 ✅ Add, Update, and Delete Products
 ✅ Manage Supplier Information
 ✅ Create and Track Orders
 ✅ Real-time Data Storage Using MySQL
 ✅ Console-based User Interface for Seamless Interaction
 ✅ Structured Codebase with Clear Separation of Concerns
-
+```
 Important Notes
 Ensure MySQL Server is running before starting the project.
 If any permission errors occur, use sudo where required.
